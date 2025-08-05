@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  /* SCROLL */
+  html{
+    scroll-behavior: smooth;
+  }
+  .body {
+    background-color: #eaeaeab7;
+  }
+  .navbox {
+    background-color: #0072de;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+  }
+  .navbox .content {
+    background-color: #0072de;
+    display: flex;
+    place-items: center;
+    margin-left: 10px;
+  }
+  .navbox .content .fa-solid {
+    color: #fff;
+  }
+  .navbox h1 {
+    font-size: 15px;
+    color: #fff;
+    width: 10px;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 4px;
+  }
+  .navbox h1 span {
+    font-weight: 850;
+    color: #000000;
+    text-shadow: 0px 0px 10px #fff;
+  }
+  .navbox .content .nav_in_left {
+    /* border: 1px solid rgb(102, 101, 101); */
+    display: flex;
+    list-style: none;
+    margin-left: 200px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+  }
+  .navbox .content .nav_in_left li {
+    margin-left: 30px;
+    cursor: pointer;
+  }
+  .navbox .content .nav_in_left li a{
+    color: rgb(199, 255, 252);
+    text-decoration: none;
+  }
+  .navbox .content .nav_in_left .fa-solid {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .navbox .content .nav_in_right {
+    /* border: 1px solid rgb(102, 101, 101); */
+    display: flex;
+    list-style: none;
+    margin-left: 350px;
+  }
+  .navbox .content .nav_in_right li {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    cursor: pointer;
+  }
+  .navbox .content .nav_in_right li span {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+  }
+  .navbox .content .nav_in_right li a {
+    text-decoration: none;
+  }
+  .navbox .content .nav_in_right li .fa-regular {
+    font-size: 15px;
+    color: yellow;
+  }
+  .navbox .content .nav_in_right li .gold {
+    color: yellow;
+  }
+  /* --------------------------------------music card-------------------------------- */
+  
+  .music_card {
+    width: 200px;
+    height: 350px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0px 10px 25px rgb(174, 174, 174);
+    background: linear-gradient(#fff, #0072de);
+    transition: .3s;
+  }
+   .music_card:hover {
+    scale: 1.02;
+     border-radius: 10px;
+     background: linear-gradient(#ececec, #006acd);
+  }  
+  
+  .music_card img {
+    width: 90%;
+    margin: 9.3px;
+    border-radius: 6px 6px 0 0;
+  }
+  .music_card .title {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+  .music_card .title h1 {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    text-shadow: 0px 2px 5px #000751;
+  }
+  .music_card .title p {
+    font-size: 9px;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+  }
+  .music_card .title button {
+    font-size: 15px;
+    width: 50%;
+    background-color: #000000;
+    border-radius: 20px;
+  }
+  .music_card .title button a {
+    text-decoration: none;
+    color: rgb(0, 255, 255);
+    font-weight: 550;
+  }
+  .card_section{
+      display: flex;
+      justify-content: center;
+  }
+  /* show more button */
+  .show_more{
+    text-align: center;
+    margin: 5px 0px 40px;
+    color: black;
+  }
+  /* video div */
+  #carouselExample{
+    width: 92%;
+    margin: 10px 60px 0px;
+  }
+  /* video card */
+  #video_card{
+    display: flex;
+    justify-content: center;
+  }
+  #watch_mov{
+    color: #000000;
+    margin: 40px 60px 0px;
+    display: flex;
+  }
+  
+  #watch_mov span {
+    display: flex;
+    padding-left: 10px;
+  }
+  .fa-headphones, .fa-eye, .fa-clapperboard, .fa-wifi{
+    color: rgb(0, 72, 255);
+  }
+  .watch_mov_btn {
+    background: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    margin-left: 850px;
+    font-weight: 400;
+    transition: .2s;
+  }
+ .watch_mov_btn:hover{
+    background: rgb(0, 0, 0);
+    color: yellow;
+  }
+  footer {
+    /* background-image: radial-gradient(circle, rgb(0, 3, 63), rgb(0, 0, 0)); */
+    background-color: #0072de;
+        color: aliceblue;
+        padding: 30px;
+        /* box-shadow: 5px -0.2px 5px 5px rgb(0, 0, 0); */
+  }
+  .footer_ul_li_a a{
+    color: whitesmoke;
+  }
+  .footer_ul_li_a a:hover{
+    color: rgb(103, 227, 255);
+  }
+  .email_subscription_btn {
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    transition: .2s;
+  }
+  .email_subscription_btn:hover {
+    color: #000000;
+    box-shadow: inset 0 0 0 1px rgb(44, 44, 44);
+    background-color: rgb(240, 240, 240);
+  }
+  /* ----------------------------------------RESPONSIVE-----------------------------------------------*/
+  /* @media screen and (max-width:992px) {
+    
+  } */
+  /* @media screen and (max-width:600px) {
+     
+  } */
+  @media screen and (max-width:480px) {
+    /* nav */
+    .navbox {
+      height: 60px;
+    }
+    .content h1 {
+      margin-left: 2px;
+    }
+    .navbox .content .nav_in_left{
+      display: none;
+    }
+    .navbox .content .nav_in_right{
+      margin-left: 100px;
+    }
+    .navbox .content .nav_in_right li{
+      padding-left: 11px;
+    }
+  
+    /* heading */
+    #watch_mov{
+      margin: 10px 10px 0px;
+      display: flex;
+      font-size: 15px;
+      font-weight: 600;
+    }
+    #watch_mov i{
+      /* padding-left: 1px; */
+    }
+    #watch_mov button{
+      font-size: 7px;
+      padding: 5px;
+      margin-left: 50px;
+      font-weight: 400;
+    }
+    /* cards */
+    .card_section{
+      overflow-x: auto;
+      display: flex;
+      flex-direction: row;
+    }
+    .music_card {
+      width: 130px;
+      height: 250px;
+      margin: 4px;
+      
+    }
+    .music_card:hover {
+      width: 133px;
+      height: 255px;
+    }  
+    
+    .music_card img {
+      width: 85%;
+      margin: 9.3px;
+    }
+    .music_card .title {
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+    }
+    .music_card .title h1 {
+      font-size: 15px;
+      font-weight: 600;
+    }
+    .music_card .title p {
+      font-size: 6px;
+    }
+    .music_card .title button {
+      font-size: 15px;
+      width: 50%;
+      background-color: #000000;
+      border-radius: 20px;
+    }
+    /* .music_card .title button a {
+      text-decoration: none;
+      color: rgb(0, 255, 255);
+      font-weight: 550;
+    } */
+    .card_section{
+        display: inline-flex;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        
+        /* flex-basis: 100%;   */
+    }
+    
+  }
+
+
